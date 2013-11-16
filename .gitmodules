@@ -1,6 +1,3 @@
-[submodule "strapping-mediawiki"]
-	path = strapping-mediawiki
-	url = git://github.com/OSAS/strapping-mediawiki
 [submodule "skins/strapping"]
 	path = skins/strapping
-	url = git://github.com/OSAS/strapping-mediawiki.git
+	url = git://github.com/kimberli/strapping-mediawiki.git
