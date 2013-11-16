@@ -1,0 +1,341 @@
+body {
+	font-family: 'lucida sans unicode',sans-serif;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	color: black;
+	background-color: #E1E1E1;
+}
+
+#specialform {
+	display: inline;
+}
+
+#powersearch {
+        border-style: solid;
+        border-width: 1px;
+        padding: 0.5%;
+}
+
+.wrapper {
+	background-color: #FFFFFF;
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+p, pre, td, th, li, dd, dt {
+}
+
+textarea {
+	overflow: auto;
+}
+
+.headcontainer {
+	background-image: url(/skins/common/texture.jpg);
+}
+
+.sitelogocontainer {
+	padding: 0.5%;
+	width: 320px;
+}
+
+.sitetitlecontainer {
+	width: 200px;
+	padding: 1%;
+	text-shadow: 3px 3px 8px rgba(25,25,25, 1);
+        font-family: Impact,'lucida sans unicode',sans-serif;
+        font-weight: normal;
+        font-size: 500%;
+}
+.sitetitlecontainer a {
+	color: #FFFFFF;
+	vertical-align: center;
+}
+.siteinfocontainer {
+	width: 100px;
+	padding: 2% 4% 2% 2%;
+	text-shadow: 3px 3px 8px rgba(25,25,25, 1);
+	font-size: 175%;
+	font-family: Impact,Tahoma,sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	display: block;
+}
+.rightnavcontainer {
+	width: 275px;
+	padding: 2% 0.5%;
+	float: right;
+}
+.syslinks {
+        font-size: 112.5%;
+	text-align: right;
+	padding-right: 1em;
+}
+.syslinks a {
+	color: #FFFFFF;
+}
+.syslinks a:hover {
+	color: #D8D8D8;
+}
+.searchbar {
+	padding-right: 1em;
+	text-align: right;
+}
+.mw-searchInput,
+.formInput {
+	font-family: 'lucida sans unicode', sans-serif;
+}
+
+input,
+select,
+.sf-save_and_continue {
+	background-color: #FFFFFF;
+	font-family: 'lucida sans unicode', sans-serif;
+}
+input[type="submit"],
+.multipleTemplateAdder,
+#wpPreview {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	font-weight: bold;
+	color:#777777;
+	padding:2px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}
+input[type="submit"]:hover,
+.multipleTemplateAdder:hover,
+#wpPreview:hover {
+	cursor: pointer;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+
+.maincontentcontainer {
+	float: left;
+	background-color: #FFFFFF;
+}
+.quickbarcontainer {
+	padding-left: 0.5%;
+	padding-top: 1em;
+	width: 25%;
+}
+
+.quickbarcontainer ul {
+	list-style-type: none;
+}
+
+.quickbarcontainer h6 {
+	font-size: 125%;
+	font-weight: bold;
+	color: #666666;
+	padding: 0;
+	margin-bottom: 0.5em;
+	margin-top: 0.6666666em;
+	margin-left: -0.5em;
+}
+
+.articlecontainer {
+	padding: 1em 1.5% 1em 1.5%;
+	width: 70%;
+	-ms-word-break: break-all;
+	    word-break: break-all;
+
+     /* Non standard for webkit */
+     	     word-break: break-word;
+	-webkit-hyphens: auto;
+	   -moz-hyphens: auto;
+        	hyphens: auto;
+}
+
+.sidebar {
+	font-size:87.5%;
+	width: 50%;
+	float: right;
+	margin: 2%!important;
+}
+
+.sidebar th {
+	width: 32.5%;
+}
+
+.widetable {
+	padding: 2px;
+	width: 100%;
+	overflow: auto;
+}
+
+.gallerycontainer {
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+}
+
+footer {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #E1E1E1;
+	text-align: center;
+}
+
+h1 {
+	font-size: 225%;
+}
+
+.editsection {
+	display: none;
+}
+
+h1.pagetitle {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+a {
+	color: #0177c1;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EE3A43;
+}
+
+a.printable {
+	color: #3F91B6
+	text-decoration: underline;
+}
+
+a.stub, .quickbar a.stub {
+	color: #D8363E;
+	text-decoration: none;
+}
+
+a.new, .quickbar a.new {
+	color: #D8363E;
+}
+
+h2, h3, h4, h5, h6 {
+	margin-bottom: 0;
+}
+
+small {
+	font-size: 75%;
+}
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	width: 100%;
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: inline-block;
+	float: left;
+}
+
+.col:first-child { 
+	margin-left: 0; 
+}
+
+@media only screen and (min-width: 1024px) {
+	body,
+	.headcontainer,
+	.maincontentcontainer,
+	footer {
+		width: 1024px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.quickbarcontainer {
+		width: 256px;
+	}
+	.articlecontainer {
+		width: 716px;
+	}
+}
+
+
+/*  SCREEN SIZE BELOW 768px*/
+
+@media only screen and (max-width: 768px) {
+	.siteinfocontainer {
+		width: 45%;
+	}
+	.sitetitlecontainer {
+		width: 42%;
+	}
+	.siteinfo {
+		margin-left: auto;
+		margin-right: auto;
+                display: inline;
+        }
+	.maincontentcontainer .col,
+	.articlecontainer,
+	.quickbarcontainer {
+		width: 97%;
+	}
+	.quickbarsections {
+                display: inline-block;
+                width: 49%;
+        }
+	.sidebar {
+		width: 98%;
+		display: block;
+	}
+}
+
+/*  SCREEN SIZE BELOW 480px */
+
+@media only screen and (max-width: 480px) {
+	.sitelogocontainer img,
+	.sitetitlecontainer a,
+	.siteinfocontainer,
+	.syslinks,
+	.searchbar {
+		width: 320px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.siteinfo{
+		display: inline;
+	}
+	.quickbarsections {
+		display: block;
+	}
+}
+
+
