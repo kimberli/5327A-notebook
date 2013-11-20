@@ -96,7 +96,7 @@ require_once( "$IP/extensions/Arrays/Arrays.php" );
 require_once "$IP/extensions/MagicNoCache/MagicNoCache.php";
 
 // PAGES THAT PUBLIC CAN SEE:
- $wgWhitelistRead = array( "Main Page", "5327A:About");
+ $wgWhitelistRead = array( "Main Page", "5327A:About", "Meeting List");
 //$wgWhitelistedNamespaces = array(NS_USER);
 
 // optional: default is array( 'sysop' )
